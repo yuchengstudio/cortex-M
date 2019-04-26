@@ -11,4 +11,5 @@
 
 ## Period and Pulse-Width (PPW) Capture Action 工作原理
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-m0%2B/SAMC21/TC_TCC/reference/capture_aplication_001.png)
+<br/>note:事件捕捉发生在图中画“圈”的地方。
 
