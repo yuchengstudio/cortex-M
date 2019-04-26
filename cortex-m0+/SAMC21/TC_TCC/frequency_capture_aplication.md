@@ -3,3 +3,4 @@ https://github.com/yuchengstudio/cortex-M/blob/master/cortex-m0%2B/SAMC21/TC_TCC
 
 
 # 使用TC的frequency period capture 功能
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-m0%2B/SAMC21/TC_TCC/reference/atsamd21_capture_diagram-1.png)
