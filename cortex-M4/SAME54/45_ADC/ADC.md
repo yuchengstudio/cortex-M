@@ -9,5 +9,5 @@
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_003.png)
 
 ### 1.1.2 根据需要配置ADC（分辨率、参考源、差分or单端... ）
-此部分内容根据实际项目需求选择
+此部分内容根据实际项目需求选择（此配置中使用了外部参考A,所以在实际测试中需要在对应external refA引脚连接参考源）
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_004.png)
