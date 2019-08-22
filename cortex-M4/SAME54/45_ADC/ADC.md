@@ -7,3 +7,7 @@
 根据datasheet的信息，在相应START的ADC模块配置如下：
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_002.png)
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_003.png)
+
+### 1.1.2 根据需要配置ADC（分辨率、参考源、差分or单端... ）
+此部分内容根据实际项目需求选择
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_004.png)
