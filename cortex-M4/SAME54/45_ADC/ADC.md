@@ -6,3 +6,4 @@
 
 根据datasheet的信息，在相应START的ADC模块配置如下：
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_002.png)
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_003.png)
