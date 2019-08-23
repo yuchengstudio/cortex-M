@@ -21,3 +21,5 @@
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_007.png)
 
 <br/>b.相应的API函数为：adc_sync_set_inputs()
+<br/>函数的说明参考链接：http://atmel-studio-doc.s3-website-us-east-1.amazonaws.com/webhelp/GUID-2A8AADED-413E-4021-AF0C-D99E61B8160D-en-US-3/index.html?GUID-23D99B59-B5EA-4187-A2C7-660DE4BEE77B
+
