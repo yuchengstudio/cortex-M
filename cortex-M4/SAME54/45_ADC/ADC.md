@@ -22,4 +22,43 @@
 
 <br/>b.相应的API函数为：adc_sync_set_inputs()
 <br/>函数的说明参考链接：http://atmel-studio-doc.s3-website-us-east-1.amazonaws.com/webhelp/GUID-2A8AADED-413E-4021-AF0C-D99E61B8160D-en-US-3/index.html?GUID-23D99B59-B5EA-4187-A2C7-660DE4BEE77B
+```
+adc_sync_set_inputs
+
+Set ADC input source of a channel.
+
+int32_t adc_sync_set_inputs(
+    struct adc_sync_descriptor *const descr,
+    const adc_pos_input_t pos_input,
+    const adc_neg_input_t neg_input,
+    const uint8_t channel
+)
+
+This function sets ADC positive and negative input sources.
+Parameters
+
+descr
+
+    Type: struct adc_sync_descriptor Struct *const
+
+    The pointer to the ADC descriptor
+pos_input
+
+    Type: const adc_pos_input_t
+
+    A positive input source to set
+neg_input
+
+    Type: const adc_neg_input_t
+
+    A negative input source to set
+channel
+
+    Type: const uint8_t
+
+    Channel number
+
+
+```
+
 
