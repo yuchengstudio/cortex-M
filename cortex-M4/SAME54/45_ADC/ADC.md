@@ -42,12 +42,12 @@ descr
     Type: struct adc_sync_descriptor Struct *const
 
     The pointer to the ADC descriptor
-pos_input
+pos_input  （0x06对应于AIN[6], 请参考寄存器说明）
 
     Type: const adc_pos_input_t
 
     A positive input source to set
-neg_input
+neg_input  ( 0x18对应于internal GND,请参考寄存器说明）
 
     Type: const adc_neg_input_t
 
