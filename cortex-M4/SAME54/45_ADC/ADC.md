@@ -37,7 +37,7 @@ int32_t adc_sync_set_inputs(
 This function sets ADC positive and negative input sources.
 Parameters
 
-descr
+descr （句柄描述符，根据应用程序命名选择）
 
     Type: struct adc_sync_descriptor Struct *const
 
