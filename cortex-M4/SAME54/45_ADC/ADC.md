@@ -11,3 +11,10 @@
 ### 1.1.2 根据需要配置ADC（分辨率、参考源、差分or单端... ）
 此部分内容根据实际项目需求选择（此配置中使用了外部参考A,所以在实际测试中需要在对应external refA引脚连接参考源）
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_004.png)
+
+
+### 1.1.3 在应用代码中调整ADC采样通道
+<br\>说明：根据1.1.2的配置，在start配置中只能启用一个通道，如果需要多通道采样，一种办法就是在应用软件中使用API函数切换采样通道，对应的寄存器参考如下图：
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_005.png)
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_006.png)
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_007.png)
