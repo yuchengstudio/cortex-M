@@ -60,5 +60,11 @@ channel
 
 
 ```
+<br/>应用代码修改如下>
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_008.png)
+
+<br/>输出结果下：
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_009.png)
+
 
 
