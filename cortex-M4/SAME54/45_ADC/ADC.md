@@ -66,5 +66,6 @@ channel
 <br/>输出结果下：
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_ADC_009.png)
 
-
+<br/>源码分享如下
+https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/firmware/SAME54_ADC_EXAMPLE.7z
 
