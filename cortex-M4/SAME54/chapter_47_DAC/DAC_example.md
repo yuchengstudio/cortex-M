@@ -3,5 +3,5 @@
 https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/firmware/SAME54_DAC_sync.7z
 
 ## 1.2 START 配置界面
-！[image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_DAC_001.png)
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/picture_resouce/SAME54_DAC_001.png)
 
