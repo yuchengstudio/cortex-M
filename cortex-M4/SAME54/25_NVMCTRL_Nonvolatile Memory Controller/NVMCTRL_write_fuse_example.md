@@ -60,7 +60,7 @@ void program_fuse_bits(void)
 	NVMCTRL->INTENCLR.reg |= NVMCTRL_INTENCLR_MASK;
 	/* Set address, command will be issued elsewhere */
 	NVMCTRL->ADDR.reg = NVMCTRL_USER;
-	/* SET security bit */
+	/* NVMCTRL_CTRLB_CMD_SSB: SET security bit */
 	NVMCTRL->CTRLB.reg = NVMCTRL_CTRLB_CMD_SSB | NVMCTRL_CTRLB_CMDEX_KEY;
 	while (!(NVMCTRL->INTFLAG.reg & NVMCTRL_INTFLAG_DONE));
 	/* Restore the settings */
