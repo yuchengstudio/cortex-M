@@ -1,4 +1,4 @@
-
+# 可以使用如下参考代码，在程序里修改fuse位
 ``` c
 //read_fuse_bits(samd51_old_fusebits);
 /* Save current value of reserved fusebits */
