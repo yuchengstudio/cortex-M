@@ -35,6 +35,8 @@ void program_fuse_bits(void)
 	/* Set address, command will be issued elsewhere */
 	NVMCTRL->ADDR.reg = NVMCTRL_USER;
 	/* Erase the page buffer before buffering new data */
+	/*1.NVMCTRL_CTRLB_CMD_PBC mean Page Buffer Clear - Clears the page buffer.*/
+	/*2.this bit group should be written with the key value 0xA5 to enable the command written to CMD*/
 	NVMCTRL->CTRLB.reg = NVMCTRL_CTRLB_CMD_PBC | NVMCTRL_CTRLB_CMDEX_KEY;
 	/* Wait for NVM command to complete */
 	while (!(NVMCTRL->STATUS.reg & NVMCTRL_STATUS_READY));
@@ -45,6 +47,8 @@ void program_fuse_bits(void)
 	/* Set address, command will be issued elsewhere */
 	NVMCTRL->ADDR.reg = NVMCTRL_USER;
 	/*注意用户页写入模式 */
+	/*1.NVMCTRL_CTRLB_CMD_WQW mean Write Quad Word - Writes a 128-bit word at the location addressed by the ADDR register. more detail opteration mode, please refer to NVMCTRL register*/
+	/*2.this bit group should be written with the key value 0xA5 to enable the command written to CMD*/
 	*((uint32_t *)NVMCTRL_USER) = samd51_new_fusebits[0];
 	*(((uint32_t *)NVMCTRL_USER) + 1) = samd51_new_fusebits[1];
 	NVMCTRL->CTRLB.reg = NVMCTRL_CTRLB_CMD_WQW|NVMCTRL_CTRLB_CMDEX_KEY;
