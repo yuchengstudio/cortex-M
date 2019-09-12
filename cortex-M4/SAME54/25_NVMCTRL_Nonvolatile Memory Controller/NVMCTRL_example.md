@@ -1,5 +1,5 @@
 
-```
+``` c
 //read_fuse_bits(samd51_old_fusebits);
 /* Save current value of reserved fusebits */
 volatile uint32_t samd51_new_fusebits[0] = samd51_modified_fusebits[0];
