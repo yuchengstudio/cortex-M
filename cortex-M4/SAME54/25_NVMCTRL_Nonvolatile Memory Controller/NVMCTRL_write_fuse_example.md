@@ -15,7 +15,7 @@ void program_fuse_bits(void)
 	//temp = NVMCTRL->CTRLA.reg;
 	NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CACHEDIS0_Pos| NVMCTRL_CTRLA_CACHEDIS1_Pos;
 	
-	/* disable interrupt */
+	/* disable NVM operation interrupt */
 	NVMCTRL->INTENCLR.reg |= NVMCTRL_INTENCLR_MASK;
 	
 	/* Set address, command will be issued elsewhere */
