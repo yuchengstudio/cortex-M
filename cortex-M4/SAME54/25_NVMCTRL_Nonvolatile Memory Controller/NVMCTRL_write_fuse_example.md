@@ -23,6 +23,8 @@ void program_fuse_bits(void)
 	
 	
 	/* Erase the user page */
+	/*1.NVMCTRL_CTRLB_CMD_EP mean Erase Page - Only supported in the User page in the auxiliary space.*/
+	/*2.this bit group should be written with the key value 0xA5 to enable the command written to CMD*/
 	NVMCTRL->CTRLB.reg = NVMCTRL_CTRLB_CMD_EP | NVMCTRL_CTRLB_CMDEX_KEY;
 	/* Wait for NVM command to complete */
 	while (!(NVMCTRL->STATUS.reg & NVMCTRL_STATUS_READY));
