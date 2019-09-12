@@ -18,7 +18,7 @@ void program_fuse_bits(void)
 	/* disable NVM operation interrupt */
 	NVMCTRL->INTENCLR.reg |= NVMCTRL_INTENCLR_MASK;
 	
-	/* Set address, command will be issued elsewhere */
+	/* Set the NVM first address to be accessed（NVMCRL_USER = 0x00804000 in SAMD51）, command will be issued elsewhere */
 	NVMCTRL->ADDR.reg = NVMCTRL_USER;
 	
 	
