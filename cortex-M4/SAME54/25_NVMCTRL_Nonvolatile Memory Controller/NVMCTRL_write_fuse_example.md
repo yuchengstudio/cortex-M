@@ -7,17 +7,21 @@ volatile uint32_t samd51_new_fusebits[1] = samd51_modified_fusebits[1];
 
 void program_fuse_bits(void)
 {
-	/* Auxiliary space cannot be accessed if the security bit is set */
+	/* Auxiliary space cannot be accessed if the security bit（NVMCTRL_CTRLB_CMD_SSB） is set */
 	if (NVMCTRL->CTRLB.reg & NVMCTRL_CTRLB_CMD_SSB) {
 		return;
 	}
 	/* Disable Cache */
-	//	temp = NVMCTRL->CTRLA.reg;
+	//temp = NVMCTRL->CTRLA.reg;
 	NVMCTRL->CTRLA.reg = NVMCTRL_CTRLA_CACHEDIS0_Pos| NVMCTRL_CTRLA_CACHEDIS1_Pos;
-	/* Clear error flags */
+	
+	/* disable interrupt */
 	NVMCTRL->INTENCLR.reg |= NVMCTRL_INTENCLR_MASK;
+	
 	/* Set address, command will be issued elsewhere */
 	NVMCTRL->ADDR.reg = NVMCTRL_USER;
+	
+	
 	/* Erase the user page */
 	NVMCTRL->CTRLB.reg = NVMCTRL_CTRLB_CMD_EP |
 	NVMCTRL_CTRLB_CMDEX_KEY;
