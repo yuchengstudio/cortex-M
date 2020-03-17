@@ -18,5 +18,6 @@
 
 
 # 3.使用命令行烧录user page数据（最常用到的是fuse位烧写）
+<br/> -v :烧写完后验证
 
-<br/>atprogram -t EDBG -i SWD -d ATSAME54P20A write -fs --values ffffffff ffffffff 
+<br/>atprogram -t EDBG -i SWD -d ATSAME54P20A write -fs --values ffffffff -v
