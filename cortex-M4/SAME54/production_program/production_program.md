@@ -15,3 +15,8 @@
 <br/>- --verify :程序烧写完之后做验证工作
 
 <br/>例子： atprogram -t EDBG -i SWD -d ATSAME54P20A program -f C:\Users\A18428\Desktop\program\SAME54_CLOCK_SWITCHING_1.hex --verify
+
+
+# 3.使用命令行烧录user page数据（最常用到的是fuse位烧写）
+
+<br/>atprogram -t EDBG -i SWD -d ATSAME54P20A write -fs --values c0
