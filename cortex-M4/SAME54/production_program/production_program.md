@@ -4,4 +4,4 @@
 <br/>-i SWD  :使用SWD接口
 <br/>-d ATSAME54P20A : 芯片为ATSAME54P20A
 <br/>chiperase : 檫除芯片动作
-<br/>  atprogram -t EDBG -i SWD -d ATSAME54P20A chiperase
+<br/>例子： atprogram -t EDBG -i SWD -d ATSAME54P20A chiperase
