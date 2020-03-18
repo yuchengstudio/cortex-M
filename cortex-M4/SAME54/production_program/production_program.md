@@ -41,3 +41,13 @@ C:\Users\A18428\Documents>atprogram -t edbg -i swd -d atsame54p20a program -fs -
 <br/> -- values 3992ffff : 要写入的数据（注意地址顺序，请仔细核对fuse位的高低次序）
 <br/> -- offset 0x804000 : fuse位的对应的映射地址
 <br/>atprogram -t EDBG -i SWD -d ATSAME54P20A write -fs --values 3992ffff --offset 0x804000
+
+
+# 4.读取熔丝位信息
+<br/>-t EDBG :使用EDBG工具
+<br/>-i SWD  :使用SWD接口
+<br/>-d ATSAME54P20A : 芯片为ATSAME54P20A
+<br/> read:读
+<br/> -- o 0x804000 : 要读取的内存读取地址
+<br/> - s 32 读取32个字节数据
+<br/>example:  atprogram -t edbg -i swd -d atsame54p20a read -o 0x804000 -s 32
