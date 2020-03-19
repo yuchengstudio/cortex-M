@@ -24,8 +24,9 @@ __attribute__((section(".userrowsec"))) const uint32_t nvm_user_row[] =
 
 # 步骤3
 使用命令行工具烧写编译生成的hex文件。
-<br\>说明1.不能使用atmel studio界面烧写，因为有1M的空间限制。
-<br\>2.不能使用.bin文件，因为bin文件没有地址信息。
+<br/>说明：
+<br/>1.不能使用atmel studio界面烧写，因为有1M的空间限制。
+<br/>2.不能使用.bin文件，因为bin文件没有地址信息。
 
 
 
