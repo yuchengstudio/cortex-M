@@ -6,5 +6,5 @@
 # 2.使用外部32k的有效程序
 https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/21.RTC-%20%E5%AE%9E%E6%97%B6%E6%97%B6%E9%92%9F/reference/SAME54_RTC_TEST.7z
 
-<br\>注意事项
+<br/>注意事项
 
