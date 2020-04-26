@@ -7,4 +7,6 @@
 https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/21.RTC-%20%E5%AE%9E%E6%97%B6%E6%97%B6%E9%92%9F/reference/SAME54_RTC_TEST.7z
 
 <br/>注意事项
+<br/>1.XOSC32k的1khz输出功能必须打开
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/21.RTC-%20%E5%AE%9E%E6%97%B6%E6%97%B6%E9%92%9F/reference/XOSC_CLOCK_CONFIGURATION_001.PNG)
 
