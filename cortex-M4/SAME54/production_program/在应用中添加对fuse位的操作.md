@@ -1,5 +1,8 @@
 # 在应用中添加如图所示的代码
-先读出fuse位，然后根据实际需要开启的fuse位，只改确认需要改的位，然后再写入。
+先读出fuse位，然后根据实际需要开启的fuse位，只改确认需要改的位，然后再写入
+原代码链接：
+https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/production_program/reference/SAME54_fuse_config_API.7z
+
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/production_program/reference/fuse_004.png)
 ```
 /* Demo code for fuse setting with APIs */
