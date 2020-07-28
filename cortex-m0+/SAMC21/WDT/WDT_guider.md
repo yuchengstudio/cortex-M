@@ -1,5 +1,6 @@
 1.如何配置WDT的CONFIG 及EWCTRL寄存器
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-m0%2B/SAMC21/WDT/reference/WDT_operation_001.png)
+![image](https://github.com/yuchengstudio/Github-/raw/master/pictures/111.jpg)
 ```
 void WDT_Enable( void )
 {
