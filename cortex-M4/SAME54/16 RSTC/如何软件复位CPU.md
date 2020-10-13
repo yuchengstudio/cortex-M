@@ -1,4 +1,4 @@
-...
+、、、
 /**
   \brief   System Reset
   \details Initiates a system reset request to reset the MCU.
@@ -17,4 +17,4 @@ __NO_RETURN __STATIC_INLINE void __NVIC_SystemReset(void)
     __NOP();
   }
 }
-...
+、、、
