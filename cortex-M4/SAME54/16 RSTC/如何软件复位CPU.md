@@ -1,4 +1,6 @@
-  ```
+
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/16%20RSTC/reference/software_reset.png)
+```
 /**
   \brief   System Reset
   \details Initiates a system reset request to reset the MCU.
@@ -18,3 +20,4 @@ __NO_RETURN __STATIC_INLINE void __NVIC_SystemReset(void)
   }
 }
  ```
+ 
