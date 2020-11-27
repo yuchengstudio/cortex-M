@@ -17,7 +17,7 @@
 # 3.在链接文件中看实际的stack大小
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BC%B0stack%E4%BD%BF%E7%94%A8%E9%87%8F/reference/stack_evaluation_003.png)
 
-# 4.调试看实际的SRAM的分配关系
+# 4.调试看实际的SRAM的分配关系（注意：这里有0xA0的地址便宜）
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BC%B0stack%E4%BD%BF%E7%94%A8%E9%87%8F/reference/stack_evaluation_004.png)
 
 # 5.运行代码一段时间，看有stack剩余多少地址没有被改，这样就可以评估除用了多少stack空间了。
