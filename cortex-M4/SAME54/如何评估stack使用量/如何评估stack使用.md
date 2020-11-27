@@ -10,4 +10,5 @@
 
 
 # 2.在map文件中找到stack的起始地址（注意：编译器会根据实际的工程分配一段空间给全局变量）
+从下图可以看出，实际编译器分配了0x20000000 ~ 0x200000a0这段空间给全局变量，所以stack空间分配的时候有个偏移地址
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BC%B0stack%E4%BD%BF%E7%94%A8%E9%87%8F/reference/stack_evaluation_002.png)
