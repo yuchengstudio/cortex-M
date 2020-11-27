@@ -1,7 +1,7 @@
 
 # 1.在链接文件中修改相应代码，使得芯片在初始化的时候将stack内容全部写成0x55
 ```
-		 /* set the stack as "0xff"  */
+	/* set the stack as "0xff"  */
         for (pDest = &_sstack; pDest < &_estack;) {
                 *pDest++ = 0x55555555;
         }
