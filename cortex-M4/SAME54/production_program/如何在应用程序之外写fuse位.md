@@ -8,8 +8,16 @@
         KEEP(*(.userrowsec))
     } > userrow
 ```
+# 步骤2.
+在XXXX_flash.ld文件中添加对userrow字段的定义
+![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/production_program/reference/fuse_005.png)
+```
+userrow  (rwx) : ORIGIN = 0x00804000, LENGTH = 0x00000200
+```
 
-# 步骤2
+
+
+# 步骤3
 在应用代码中添加对user low section的操作
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/production_program/reference/fuse_003.png)
 ```
@@ -22,7 +30,7 @@ __attribute__((section(".userrowsec"))) const uint32_t nvm_user_row[] =
 };
 ```
 
-# 步骤3
+# 步骤4
 使用命令行工具烧写编译生成的hex文件。
 <br/>说明：
 <br/>1.不能使用atmel studio界面烧写，因为有1M的空间限制。
