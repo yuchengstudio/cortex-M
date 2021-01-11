@@ -12,7 +12,9 @@
 在XXXX_flash.ld文件中添加对userrow字段的定义
 ![image](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAME54/production_program/reference/fuse_005.png)
 ```
+/*以下配置只适用于SAME5X，D5X单片机，其它系列的单片机，请查阅相关数据手册再配置*/
 userrow  (rwx) : ORIGIN = 0x00804000, LENGTH = 0x00000200
+
 ```
 
 
