@@ -11,3 +11,7 @@
 <br/>
 ![images](https://github.com/yuchengstudio/cortex-M/blob/master/%E9%80%9A%E7%94%A8%E8%AE%BE%E8%AE%A1%E8%A7%84%E5%88%99/reference/SERRCOM_SPI_003.png)
 
+
+## 2 SERCOM模块与I2C引脚的映射关系：与SPI同理
+## 3 SERCOM模块与UART引脚的映射关系：与SPI同理
+
