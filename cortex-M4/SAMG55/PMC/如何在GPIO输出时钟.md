@@ -6,4 +6,5 @@
 ## 2.1 For a SW code showing this feature please refer to "Harmony3\csp_apps_sam_g55\apps\clock\clock_config\firmware\sam_g55_xpro.X" example.
 ## 2.2 enable the PCKx module output features.
 ![images](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAMG55/PMC/reference/PKC_output_001.png)
+## 2.3 combine the PCK module  to the GPIO
 ![images](https://github.com/yuchengstudio/cortex-M/blob/master/cortex-M4/SAMG55/PMC/reference/PKC_output_002.png)
